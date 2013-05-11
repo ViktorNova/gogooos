@@ -1,0 +1,1 @@
+Here must be placed components for touch devices
