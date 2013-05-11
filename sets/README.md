@@ -1,0 +1,1 @@
+Copy gogooos to /etc/portage/package.keywords
