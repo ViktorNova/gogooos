@@ -7,9 +7,10 @@ EAPI=4
 inherit gnome2-utils autotools-utils
 
 DESCRIPTION="API for IP Heartbeat service"
-HOMEPAGE="https://launchpad.net/indicator-session"
-#EBZR_REPO_URI="lp:indicator-session"
-SRC_URI="${P}.tar.bz2"
+HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
+SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
+S="${WORKDIR}/dudochkin-victor-${PN}-c6da8a7"
+
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"

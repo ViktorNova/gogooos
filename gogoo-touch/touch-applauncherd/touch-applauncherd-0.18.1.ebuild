@@ -7,9 +7,10 @@ EAPI=4
 inherit fdo-mime gnome2-utils cmake-utils
 
 DESCRIPTION="Application launcher for fast startup"
-HOMEPAGE="https://launchpad.net/indicator-session"
-#EBZR_REPO_URI="lp:indicator-session"
+HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
 SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
+S="${WORKDIR}/dudochkin-victor-${PN}-7a84ae6"
+
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
@@ -39,7 +40,6 @@ DEPEND="${RDEPEND}
 #BuildRequires:  pkgconfig(xext)
 #BuildRequires:  cmake
 
-S="${WORKDIR}/dudochkin-victor-${PN}-7a84ae6"
 
 src_configure() {
 	local mycmakeargs=(

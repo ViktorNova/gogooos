@@ -7,9 +7,10 @@ EAPI=4
 inherit gnome2-utils
 
 DESCRIPTION="MeeGo Netbook Theme"
-HOMEPAGE="https://launchpad.net/indicator-session"
-#EBZR_REPO_URI="lp:indicator-session"
-SRC_URI="${P}.tar.gz"
+HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
+SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
+S="${WORKDIR}/dudochkin-victor-${PN}-3d9ee97"
+
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
