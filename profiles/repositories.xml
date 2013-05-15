@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>gogooos</name>
+    <description lang="en">The MeeGo OS experience for Gentoo Linux.</description>
+    <homepage>http://dudochkin-victor.github.io/gogooos/</homepage>
+    <owner type="person">
+      <email>blacksmith@gogoo.ru</email>
+      <name>Dudochkin Victor</name>
+    </owner>
+    <source type="git">git://github.com/dudochkin-victor/gogooos.git</source>
+    <feed>https://github.com/dudochkin-victor/gogooos/commits/master.atom</feed>
+  </repo>
+</repositories>
+
