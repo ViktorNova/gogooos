@@ -21,22 +21,18 @@ RDEPEND="
 	dev-libs/glib:2
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
-	x11-libs/gtk+:3"
+	x11-libs/gtk+:3
+	=gogoo-base/libqtsparql-9999"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
 	nls? ( sys-devel/gettext )"
 
-#Requires(post): /sbin/ldconfig
-#Requires(postun): /sbin/ldconfig
 #BuildRequires:  pkgconfig(QtCore)
 #BuildRequires:  pkgconfig(QtSparql)
 #BuildRequires:  pkgconfig(uuid)
-#BuildRequires:  doxygen
 #BuildRequires:  tracker >= 0.7.0
-#BuildRequires:  fdupes
 
-
-src_configure() {
+src_configure() {    
     eqmake4
 }

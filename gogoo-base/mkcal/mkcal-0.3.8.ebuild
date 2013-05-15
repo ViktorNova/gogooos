@@ -21,8 +21,8 @@ RDEPEND="
 	dev-libs/glib:2
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
-	x11-libs/gtk+:3"
-#	>=meego-base/libqtsparql-0.0.21"
+	x11-libs/gtk+:3
+	=gogoo-base/libqtsparql-9999"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
@@ -34,7 +34,7 @@ DEPEND="${RDEPEND}
 #BuildRequires:  pkgconfig(QtCore)
 #BuildRequires:  pkgconfig(libical)
 #BuildRequires:  pkgconfig(libkcalcoren)
-#BuildRequires:  pkgconfig(meegotouch)
+#BuildRequires:  pkgconfig(gogootouch)
 #BuildRequires:  pkgconfig(sqlite3)
 #BuildRequires:  pkgconfig(tracker-client-0.10)
 #BuildRequires:  pkgconfig(uuid)

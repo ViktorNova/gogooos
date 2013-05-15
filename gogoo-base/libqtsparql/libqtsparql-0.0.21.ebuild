@@ -9,7 +9,7 @@ inherit gnome2-utils qt4-r2
 DESCRIPTION="Library for accessing RDF stores"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
 SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
-S="${WORKDIR}/dudochkin-victor-${PN}-21"
+S="${WORKDIR}/dudochkin-victor-${PN}-5f13516"
 
 LICENSE="GPL-3"
 SLOT="0"

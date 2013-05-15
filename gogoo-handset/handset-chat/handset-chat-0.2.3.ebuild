@@ -6,7 +6,7 @@ EAPI=4
 
 inherit gnome2-utils qt4-r2
 
-DESCRIPTION="MeeGo Touch Framework and Telepathy based chat application"
+DESCRIPTION="GoGoo Touch Framework and Telepathy based chat application"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
 SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
 S="${WORKDIR}/dudochkin-victor-${PN}-1166380"
@@ -22,8 +22,9 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	meego-base/meego-qml-launcher
-	>=meego-base/meego-ux-components-0.2.8.7"
+	gogoo-base/qml-launcher
+	>=gogoo-base/ux-components-0.2.8.7
+	=gogoo-base/libgogoochat-9999"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
@@ -33,17 +34,16 @@ DEPEND="${RDEPEND}
 #Requires:   telepathy-gabble
 #Requires:   telepathy-salut
 #Requires:   telepathy-farsight
-#Requires:   meegotouch-theme
-#Requires:   meego-handset-people
-#Requires:   meegotouchcp-chat
-#Requires:   libmeegochat
+#Requires:   gogootouch-theme
+#Requires:   handset-people
+#Requires:   touchcp-chat
+#Requires:   libgogoochat
 #BuildRequires:  pkgconfig(QtCore) >= 4.6.0
 #BuildRequires:  pkgconfig(QtGui)
-#BuildRequires:  pkgconfig(libmeegochat)
-#BuildRequires:  pkgconfig(meegotouch)
-#BuildRequires:  pkgconfig(meegotouch-controlpanel)
+#BuildRequires:  pkgconfig(libgogoochat)
+#BuildRequires:  pkgconfig(gogootouch)
+#BuildRequires:  pkgconfig(gogootouch-controlpanel)
 #BuildRequires:  desktop-file-utils
-
 
 src_configure() {
     eqmake4

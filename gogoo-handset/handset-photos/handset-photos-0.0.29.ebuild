@@ -22,17 +22,17 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	meego-base/meego-qml-launcher
-	>=meego-base/meego-ux-components-0.2.8.7
+	gogoo-base/qml-launcher
+	>=gogoo-base/ux-components-0.2.8.7
 	>=app-misc/tracker-0.14.4
-	>=meego-base/libqttracker-6.12.6"
+	>=gogoo-base/libqttracker-6.12.6"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
 	nls? ( sys-devel/gettext )"
 
-#Requires:   meego-handset-photos-branding
-#Requires:   meegotouch-theme-common
+#Requires:   handset-photos-branding
+#Requires:   touch-theme-common
 #Requires:   tumbler
 #Requires:   libexif
 #BuildRequires:  pkgconfig(QtCore) >= 4.6.0
@@ -40,7 +40,7 @@ DEPEND="${RDEPEND}
 #BuildRequires:  pkgconfig(QtOpenGL)
 #BuildRequires:  pkgconfig(QtNetwork)
 #BuildRequires:  pkgconfig(QtGui)
-#BuildRequires:  pkgconfig(meegotouch)
+#BuildRequires:  pkgconfig(gogootouch)
 #BuildRequires:  pkgconfig(qttracker)
 #BuildRequires:  pkgconfig(libexif)
 #BuildRequires:  fdupes

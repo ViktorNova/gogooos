@@ -6,7 +6,7 @@ EAPI=4
 
 inherit gnome2-utils qt4-r2
 
-DESCRIPTION="Theme for Meego Touch based applications"
+DESCRIPTION="Theme for GoGoo Touch based applications"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
 SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
 S="${WORKDIR}/dudochkin-victor-${PN}-adafd0c"
@@ -22,14 +22,14 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	meego-base/meego-qml-launcher
-	>=meego-base/meego-ux-components-0.2.8.7"
+	gogoo-base/qml-launcher
+	>=gogoo-base/ux-components-0.2.8.7"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
 	nls? ( sys-devel/gettext )"
 
-#Requires:   libmeegotouch >= 0.20.42
+#Requires:   libgogootouch >= 0.20.42
 #BuildRequires:  pkgconfig(QtCore)
 #BuildRequires:  fdupes
 

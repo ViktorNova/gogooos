@@ -6,7 +6,7 @@ EAPI=4
 
 inherit gnome2-utils qt4-r2
 
-DESCRIPTION="Common MeeGo QML Components"
+DESCRIPTION="Common GoGoo QML Components"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
 SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
 S="${WORKDIR}/dudochkin-victor-${PN}-5d3fdd5"
@@ -17,8 +17,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="nls"
 
 #Requires:   libdeclarative-contacts
-#Requires:   meego-ux-components
-#Requires:   meego-ux-theme
+#Requires:   ux-components
+#Requires:   ux-theme
 #BuildRequires:  pkgconfig(libexif)
 #BuildRequires:  pkgconfig(libpulse)
 #BuildRequires:  pkgconfig(QtOpenGL)
@@ -40,11 +40,11 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	>=meego-base/mlite-0.0.1
+	>=gogoo-base/mlite-0.0.1
 	>=dev-qt/qt-mobility-1.2.2_p20121205[sensors]
 	net-libs/qmf
-	>=meego-base/meego-ux-components-0.2.8.7
-	>=meego-base/meego-ux-theme-0.2.6
+	>=gogoo-base/ux-components-0.2.8.7
+	>=gogoo-base/ux-theme-0.2.6
 	"
 DEPEND="${RDEPEND}
 	dev-util/intltool

@@ -9,7 +9,7 @@ inherit gnome2-utils
 DESCRIPTION="MeeGo Netbook icon theme"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
 SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
-S="${WORKDIR}/dudochkin-victor-${PN}-12"
+S="${WORKDIR}/dudochkin-victor-${PN}-f120e89"
 
 LICENSE="GPL-3"
 SLOT="0"

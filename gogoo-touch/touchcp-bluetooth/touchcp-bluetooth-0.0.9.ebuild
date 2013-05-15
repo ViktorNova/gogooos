@@ -6,7 +6,7 @@ EAPI=4
 
 inherit gnome2-utils qt4-r2
 
-DESCRIPTION="MeegoTouch Control Panel Bluetooth Plugin"
+DESCRIPTION="GoGooTouch Control Panel Bluetooth Plugin"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
 SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
 S="${WORKDIR}/dudochkin-victor-${PN}-12eef43"
@@ -22,9 +22,9 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	meego-base/meego-qml-launcher
-	>=meego-base/meego-ux-components-0.2.8.7
-	>=meego-touch/meegotouchcp-connman-0.0.13"
+	gogoo-base/qml-launcher
+	>=gogoo-base/ux-components-0.2.8.7
+	>=gogoo-touch/touchcp-connman-0.0.13"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
@@ -35,8 +35,8 @@ DEPEND="${RDEPEND}
 #BuildRequires:  pkgconfig(connman-qt)
 #BuildRequires:  pkgconfig(libpulse)
 #BuildRequires:  pkgconfig(libpulse-mainloop-glib)
-#BuildRequires:  pkgconfig(meegotouch)
-#BuildRequires:  pkgconfig(meegotouch-controlpanel)
+#BuildRequires:  pkgconfig(gogootouch)
+#BuildRequires:  pkgconfig(touch-controlpanel)
 #BuildRequires:  doxygen
 
 src_configure() {

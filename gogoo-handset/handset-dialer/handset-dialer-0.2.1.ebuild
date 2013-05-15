@@ -6,7 +6,7 @@ EAPI=4
 
 inherit gnome2-utils qt4-r2
 
-DESCRIPTION="MeeGo Touch Framework based Voice Call Application"
+DESCRIPTION="GoGoo Touch Framework based Voice Call Application"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
 SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
 S="${WORKDIR}/dudochkin-victor-${PN}-51c5f90"
@@ -22,8 +22,8 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	meego-base/meego-qml-launcher
-	>=meego-base/meego-ux-components-0.2.8.7"
+	gogoo-base/qml-launcher
+	>=gogoo-base/ux-components-0.2.8.7"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
@@ -31,18 +31,17 @@ DEPEND="${RDEPEND}
 
 #Requires:   ofono
 #Requires:   voicecallhistory
-#Requires:   meego-handset-dialer-branding
-#Requires:   meego-handset-sound-theme
+#Requires:   handset-dialer-branding
+#Requires:   handset-sound-theme
 #BuildRequires:  pkgconfig(QtOpenGL)
 #BuildRequires:  pkgconfig(QtContacts) >= 1.0.2
 #BuildRequires:  pkgconfig(QtMultimediaKit)
-#BuildRequires:  pkgconfig(meegotouch)
+#BuildRequires:  pkgconfig(gogootouch)
 #BuildRequires:  pkgconfig(qttracker)
-#BuildRequires:  pkgconfig(meegobluetooth)
+#BuildRequires:  pkgconfig(gogoobluetooth)
 #BuildRequires:  pkgconfig(libresourceqt1)
 #BuildRequires:  libseaside-devel >= 0.0.35
 #BuildRequires:  desktop-file-utils
-
 
 src_configure() {
     eqmake4

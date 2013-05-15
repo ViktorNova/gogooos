@@ -6,7 +6,7 @@ EAPI=4
 
 inherit gnome2-utils qt4-r2
 
-DESCRIPTION="MeeGo chat account configuration applet for meegotouch-control-panel"
+DESCRIPTION="GoGoo chat account configuration applet for touch-control-panel"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
 SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
 S="${WORKDIR}/dudochkin-victor-${PN}-f66c569"
@@ -22,21 +22,21 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	meego-base/meego-qml-launcher
-	>=meego-base/meego-ux-components-0.2.8.7"
+	gogoo-base/qml-launcher
+	>=gogoo-base/ux-components-0.2.8.7"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
 	nls? ( sys-devel/gettext )"
 
-#Requires:   libmeegochat
+#Requires:   libgogoochat
 #BuildRequires:  pkgconfig(QtCore) >= 4.6.0
 #BuildRequires:  pkgconfig(QtDBus)
 #BuildRequires:  pkgconfig(QtGui)
 #BuildRequires:  pkgconfig(TelepathyQt4) < 0.5
-#BuildRequires:  pkgconfig(libmeegochat)
-#BuildRequires:  pkgconfig(meegotouch)
-#BuildRequires:  pkgconfig(meegotouch-controlpanel)
+#BuildRequires:  pkgconfig(libgogoochat)
+#BuildRequires:  pkgconfig(gogootouch)
+#BuildRequires:  pkgconfig(touch-controlpanel)
 
 src_configure() {
 	eqmake4

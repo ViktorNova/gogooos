@@ -23,12 +23,12 @@ RDEPEND="
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
 	dev-db/tinycdb
-	>=meego-base/libmeegotouch-0.21.4.1
+	>=gogoo-base/libgogootouch-0.21.4.1
 	dev-qt/qttest
 	dev-qt/qtcore
 	dev-qt/qtxmlpatterns
 	dev-qt/qtdbus"
-# QtTest QtCore QtXml QtDbus Glib meegotouch
+# QtTest QtCore QtXml QtDbus Glib 
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig

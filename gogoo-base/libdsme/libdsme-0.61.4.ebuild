@@ -9,7 +9,7 @@ inherit gnome2-utils qt4-r2
 DESCRIPTION="DSME dsmesock dynamic library"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
 SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
-S="${WORKDIR}/dudochkin-victor-${PN}-4"
+S="${WORKDIR}/dudochkin-victor-${PN}-dbd4b37"
 
 LICENSE="GPL-3"
 SLOT="0"

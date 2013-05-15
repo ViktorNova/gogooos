@@ -23,7 +23,7 @@ RDEPEND="
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
 	dev-db/tinycdb
-	>=meego-base/libmeegotouch-0.21.4.1
+	>=gogoo-base/libgogootouch-0.21.4.1
 	dev-qt/qttest
 	dev-qt/qtcore
 	dev-qt/qtxmlpatterns
@@ -37,10 +37,10 @@ DEPEND="${RDEPEND}
 #Requires:   mx
 #Requires:   gnome-menus
 #Requires:   startup-notification
-#Requires:   meego-menus
+#Requires:   gogoo-menus
 #Requires:   matchbox-panel
 #Requires:   libXScrnSaver
-#Requires:   mutter-meego-branding
+#Requires:   mutter-gogoo-branding
 #Requires(pre): GConf2
 #Requires(preun): GConf2
 #Requires(post): /sbin/ldconfig

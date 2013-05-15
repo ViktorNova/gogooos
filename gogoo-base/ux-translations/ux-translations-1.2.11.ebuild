@@ -6,7 +6,7 @@ EAPI=4
 
 inherit gnome2-utils 
 
-DESCRIPTION="Translation files for meego-ux"
+DESCRIPTION="Translation files for gogoo-ux"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
 SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
 S="${WORKDIR}/dudochkin-victor-${PN}-2401c79"

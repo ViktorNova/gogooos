@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	>=meego-base/mlite-0.0.1
+	>=gogoo-base/mlite-0.0.1
 	>=dev-qt/qt-mobility-1.2.2_p20121205[sensors]"
 DEPEND="${RDEPEND}
 	dev-util/intltool

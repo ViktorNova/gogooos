@@ -9,7 +9,7 @@ inherit gnome2-utils qt4-r2
 DESCRIPTION="Temporary submodule for draft Call implementations"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
 SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
-S="${WORKDIR}/dudochkin-victor-${PN}-1"
+S="${WORKDIR}/dudochkin-victor-${PN}-08ee6c8"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	>=meego-base/libdsme-0.61.4"
+	>=gogoo-base/libdsme-0.61.4"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig

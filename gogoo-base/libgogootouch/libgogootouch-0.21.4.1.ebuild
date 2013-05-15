@@ -7,7 +7,7 @@ EAPI=4
 inherit gnome2-utils qt4-r2
 #autotools 
 
-DESCRIPTION="MeeGo Touch Framework"
+DESCRIPTION="GoGoo Touch Framework"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
 SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
 S="${WORKDIR}/dudochkin-victor-${PN}-8f9fdb5"
@@ -24,22 +24,17 @@ RDEPEND="
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
 	dev-db/tinycdb
-	>=meego-base/contextkit-0.5.27.1"
-# QtTest QtCore QtXml QtDbus Glib meegotouch
+	>=gogoo-base/contextkit-0.5.27.1"
+# QtTest QtCore QtXml QtDbus Glib 
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
 	nls? ( sys-devel/gettext )"
-
-#src_prepare() {
-#    eautoreconf
-#}
 
 src_configure() {
     econf -release
 }
 
 src_install() {
-#	emake DESTDIR="${D}" install
 	emake INSTALL_ROOT="${ED}" install
 }

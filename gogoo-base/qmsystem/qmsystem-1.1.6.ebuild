@@ -22,8 +22,8 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	>=meego-base/libdsme-0.61.4
-	>=meego-base/libiphb-0.61.26"
+	>=gogoo-base/libdsme-0.61.4
+	>=gogoo-base/libiphb-0.61.26"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig

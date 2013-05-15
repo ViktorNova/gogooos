@@ -22,7 +22,8 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	>=meego-base/anerley-0.3.0"
+	>=gogoo-base/anerley-0.3.0
+	>=gogoo-base/mutter-netbook-0.77.4"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig

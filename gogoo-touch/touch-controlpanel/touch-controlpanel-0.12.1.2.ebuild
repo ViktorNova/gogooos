@@ -6,7 +6,7 @@ EAPI=4
 
 inherit gnome2-utils qt4-r2
 
-DESCRIPTION="MeeGo Control Panel"
+DESCRIPTION="GoGoo Control Panel"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
 SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
 S="${WORKDIR}/dudochkin-victor-${PN}-5d56fd2"
@@ -22,22 +22,21 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	meego-base/meego-qml-launcher
-	>=meego-base/meego-ux-components-0.2.8.7"
+	gogoo-base/qml-launcher
+	>=gogoo-base/ux-components-0.2.8.7"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
 	nls? ( sys-devel/gettext )"
 
-#Requires:   meegotouch-applauncherd
-#Requires:   meegocontrolpanel-l10n-engineering-english
-#Requires:   libmeegocontrolpanel
+#Requires:   touch-applauncherd
+#Requires:   controlpanel-l10n-engineering-english
+#Requires:   libgogoocontrolpanel
 #BuildRequires:  pkgconfig(QtGui)
-#BuildRequires:  pkgconfig(meegotouch)
+#BuildRequires:  pkgconfig(gogootouch)
 #BuildRequires:  pkgconfig(clean-device)
 #BuildRequires:  doxygen
 #BuildRequires:  desktop-file-utils
-
 
 src_configure() {
 	eqmake4

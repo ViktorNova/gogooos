@@ -22,8 +22,8 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	meego-base/meego-qml-launcher
-	>=meego-base/meego-ux-components-0.2.8.7"
+	gogoo-base/qml-launcher
+	>=gogoo-base/ux-components-0.2.8.7"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
@@ -31,7 +31,7 @@ DEPEND="${RDEPEND}
 
 #Requires:   %{name}-screenlock-padlock
 #Requires:   %{name}-volume-fullscreen
-#Requires:   meegocontrolpanel-privatemodeapplet
+#Requires:   controlpanel-privatemodeapplet
 #BuildRequires:  pkgconfig(QtGui)
 #BuildRequires:  pkgconfig(QtOpenGL)
 #BuildRequires:  pkgconfig(contextsubscriber-1.0)
@@ -40,8 +40,8 @@ DEPEND="${RDEPEND}
 #BuildRequires:  pkgconfig(glib-2.0)
 #BuildRequires:  pkgconfig(libngf0)
 #BuildRequires:  pkgconfig(libresourceqt1)
-#BuildRequires:  pkgconfig(meegotouch) >= 0.20.37
-#BuildRequires:  pkgconfig(meegotouch-controlpanel)
+#BuildRequires:  pkgconfig(gogootouch) >= 0.20.37
+#BuildRequires:  pkgconfig(touch-controlpanel)
 #BuildRequires:  pkgconfig(mssf-crypto)
 #BuildRequires:  pkgconfig(qmsystem2) >= 1.1.6
 #BuildRequires:  pkgconfig(x11)
