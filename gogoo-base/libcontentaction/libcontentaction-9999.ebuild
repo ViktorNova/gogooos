@@ -4,12 +4,11 @@
 
 EAPI=4
 
-inherit gnome2-utils qt4-r2
+inherit gnome2-utils cmake-utils git-2
 
-DESCRIPTION="GoGoo Instant Messaging Application"
+DESCRIPTION="Library for associating content with actions"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
-SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
-S="${WORKDIR}/dudochkin-victor-${PN}-c7654e6"
+EGIT_REPO_URI="https://github.com/dudochkin-victor/${PN}"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -22,16 +21,23 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	gogoo-base/qml-launcher
-	>=gogoo-base/ux-components-0.2.8.7
-	>=gogoo-base/telepathy-qt4-yell-0.1.4
-	>=media-libs/qt-gstreamer-0.10.2
-	>=net-libs/telepathy-logger-qt-0.6.0"
+	dev-db/tinycdb
+	>=gogoo-base/libgogootouch-0.21.4.1
+	dev-qt/qttest
+	dev-qt/qtcore
+	dev-qt/qtxmlpatterns
+	dev-qt/qtdbus"
+# QtTest QtCore QtXml QtDbus Glib 
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
 	nls? ( sys-devel/gettext )"
 
 src_configure() {
-    eqmake4
+#	local mycmakeargs=(
+#	    -DGSETTINGS_COMPILE=OFF
+#		-DVALA_EXECUTABLE="$(type -p valac-0.18)"
+#	)
+
+	cmake-utils_src_configure
 }

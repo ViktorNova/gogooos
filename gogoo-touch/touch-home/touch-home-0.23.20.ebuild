@@ -23,7 +23,9 @@ RDEPEND="
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
 	gogoo-base/qml-launcher
-	>=gogoo-base/ux-components-0.2.8.7"
+	>=gogoo-base/ux-components-0.2.8.7
+	=gogoo-base/libcontentaction-9999
+	=gogoo-base/libgogootouch-9999"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig

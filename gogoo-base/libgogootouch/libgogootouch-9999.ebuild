@@ -4,12 +4,12 @@
 
 EAPI=4
 
-inherit gnome2-utils qt4-r2
+inherit gnome2-utils qt4-r2 git-2
+#autotools 
 
-DESCRIPTION="GoGoo Instant Messaging Application"
+DESCRIPTION="GoGoo Touch Framework"
 HOMEPAGE="https://github.com/dudochkin-victor/${PN}"
-SRC_URI="https://github.com/dudochkin-victor/${PN}/tarball/${PV} -> ${P}.tar.gz"
-S="${WORKDIR}/dudochkin-victor-${PN}-c7654e6"
+EGIT_REPO_URI="https://github.com/dudochkin-victor/${PN}"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -22,16 +22,18 @@ RDEPEND="
 	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
 	sys-fs/udev[gudev]
 	x11-libs/gtk+:3
-	gogoo-base/qml-launcher
-	>=gogoo-base/ux-components-0.2.8.7
-	>=gogoo-base/telepathy-qt4-yell-0.1.4
-	>=media-libs/qt-gstreamer-0.10.2
-	>=net-libs/telepathy-logger-qt-0.6.0"
+	dev-db/tinycdb
+	>=gogoo-base/contextkit-0.5.27.1"
+# QtTest QtCore QtXml QtDbus Glib 
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
 	nls? ( sys-devel/gettext )"
 
 src_configure() {
-    eqmake4
+    econf -release
+}
+
+src_install() {
+	emake INSTALL_ROOT="${ED}" install
 }

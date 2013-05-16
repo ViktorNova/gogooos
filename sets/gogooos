@@ -1,10 +1,11 @@
 ~app-misc/tracker-0.14.5
 ~sys-libs/libosinfo-0.2.6
+
 #GogooOS Base Components
 ~x11-misc/uxlaunch-0.59.1
 ~gogoo-base/gogoo-menus-0.2.0
 ~gogoo-base/gogoo-help-0.0.2
-~gogoo-base/gogoo-netbook-theme-0.1
+~gogoo-base/netbook-theme-0.1
 ~gogoo-base/mutter-netbook-0.77.4
 ~gogoo-base/gogoo-panel-applications-0.2.5
 ~gogoo-base/gogoo-panel-datetime-0.3.3
@@ -19,12 +20,14 @@
 ~gogoo-base/anerley-0.3.0
 gogoo-base/jana
 ~gogoo-base/mkcal-0.3.8
+~gogoo-base/libqtsparql-0.0.21
 ~gogoo-base/libqtsparql-9999
 ~gogoo-base/libgogoochat-9999
 ~gogoo-base/libsocialweb-qt-0.1.14
 ~gogoo-base/marmazon-0.0.1
 ~gogoo-base/libseaside-0.0.39
 ~gogoo-base/libqttracker-6.12.6
+~gogoo-base/libqttracker-9999
 ~gogoo-base/qmsystem-1.1.6
 ~gogoo-base/libdsme-0.61.4
 ~gogoo-base/telepathy-yell-0.0.1
@@ -44,8 +47,8 @@ gogoo-base/jana
 ~net-libs/qmf-2.0_p201209
 ~gogoo-base/kcalcore-4.1.18.1
 ~gogoo-base/contextkit-0.5.27.1
-~gogoo-base/libcontentaction-0.1.39.1
-~gogoo-base/libgogootouch-0.21.4.1
+~gogoo-base/libcontentaction-9999
+~gogoo-base/libgogootouch-9999
 ~gogoo-base/ux-translations-1.2.11
 ~gogoo-base/mex-0.1.0
 
@@ -67,7 +70,7 @@ gogoo-base/jana
 
 #GogooOS Extra Components
 ~gogoo-extra/ux-appgrid-0.2.3
-~gogoo-extra/ux-compositor-0.8.5
+~gogoo-extra/ux-compositor-9999
 ~gogoo-extra/ux-content-0.2.3
 ~gogoo-extra/ux-content-socialweb-0.1.0
 ~gogoo-extra/ux-daemon-0.2.6
@@ -83,9 +86,10 @@ gogoo-base/jana
 
 #GogooOS Handset Architecture
 ~gogoo-handset/handset-calendar-0.2
-~gogoo-handset/handset-chat-0.2.3
+~gogoo-handset/handset-chat-9999
 ~gogoo-handset/handset-configs-0.2.1
-~gogoo-handset/handset-dialer-0.2.1
+~gogoo-handset/handset-dialer-9999
+~gogoo-handset/handset-dialer-9999
 ~gogoo-handset/handset-dialer-branding-gogoo-0.1.13
 ~gogoo-handset/handset-dialer-translations-0.0.4
 ~gogoo-handset/handset-email-0.2.6
@@ -107,7 +111,7 @@ gogoo-base/jana
 #GogooOS Touch Architecture
 ~gogoo-touch/touch-applauncherd-0.18.1
 ~gogoo-touch/touch-applifed-0.20.9
-~gogoo-touch/touch-compositor-0.8.5
+~gogoo-touch/touch-compositor-9999
 ~gogoo-touch/touch-controlpanel-0.12.1.2
 ~gogoo-touch/touch-controlpanelapplets-0.17.4
 ~gogoo-touch/touch-feedback-0.10.6
@@ -118,13 +122,14 @@ gogoo-base/jana
 ~gogoo-touch/touch-inputmethodframework-0.20.6
 ~gogoo-touch/touch-inputmethodkeyboard-0.5.32
 ~gogoo-touch/touch-qt-style-0.20.59
-~gogoo-touch/touch-systemui-0.20.38
+~gogoo-touch/touch-systemui-9999
 ~gogoo-touch/touch-theme-0.20.92
 ~gogoo-touch/touch-theme-gogoo-0.1.6
 ~gogoo-touch/touchcp-bluetooth-0.0.9
-~gogoo-touch/touchcp-chat-0.1.2
+~gogoo-touch/touchcp-chat-9999
 ~gogoo-touch/touchcp-connman-0.0.13
 ~gogoo-touch/touchcp-datetime-0.7.50.13
 ~gogoo-touch/touchcp-language-0.8.24
 ~gogoo-touch/touchcp-regionformat-0.2.32.2
 ~gogoo-touch/touchcp-socialweb-0.1.2
+
