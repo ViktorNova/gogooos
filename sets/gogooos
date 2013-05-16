@@ -30,8 +30,8 @@ gogoo-base/jana
 ~gogoo-base/libqttracker-9999
 ~gogoo-base/qmsystem-1.1.6
 ~gogoo-base/libdsme-0.61.4
-~gogoo-base/telepathy-yell-0.0.1
-~gogoo-base/telepathy-qt4-yell-0.1.4
+~gogoo-base/telepathy-yell-0.0.4
+~gogoo-base/telepathy-qt4-yell-9999
 ~gogoo-base/bluetooth-qt-0.0.6
 ~gogoo-base/bluetooth-ivi-1.1
 ~gogoo-base/qtgst-qmlsink-0.0.1
@@ -60,7 +60,7 @@ gogoo-base/jana
 ~gogoo-extra/gogoo-app-contacts-0.2.6
 ~gogoo-extra/gogoo-app-email-0.2.9
 ~gogoo-extra/gogoo-app-fingerpaint-0.2.0
-~gogoo-extra/gogoo-app-im-0.2.6
+~gogoo-extra/gogoo-app-im-9999
 ~gogoo-extra/gogoo-app-music-0.2.10
 ~gogoo-extra/gogoo-app-notes-0.2.8
 ~gogoo-extra/gogoo-app-photos-0.2.6
@@ -133,3 +133,4 @@ gogoo-base/jana
 ~gogoo-touch/touchcp-regionformat-0.2.32.2
 ~gogoo-touch/touchcp-socialweb-0.1.2
 
+~net-libs/telepathy-logger-qt-0.6.0
