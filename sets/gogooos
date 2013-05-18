@@ -134,3 +134,29 @@ gogoo-base/jana
 ~gogoo-touch/touchcp-socialweb-0.1.2
 
 ~net-libs/telepathy-logger-qt-0.6.0
+
+#GogooOS WebAPI from openWebOs
+~gogoo-webapi/cjson-9999 **
+~gogoo-webapi/cmake-modules-webos-9999 **
+~gogoo-webapi/libpbnjson-9999 **
+~gogoo-webapi/pmloglib-9999 **
+~gogoo-webapi/nyx-lib-9999 **
+~gogoo-webapi/luna-service2-9999 **
+
+~gogoo-webapi/luna-sysmgr-ipc-9999 **
+~gogoo-webapi/luna-sysmgr-ipc-messages-9999 **
+~gogoo-webapi/luna-sysmgr-common-9999 **
+~gogoo-webapi/luna-init-9999 **
+~gogoo-webapi/luna-prefs-9999 **
+~gogoo-webapi/luna-sysservice-9999 **
+~gogoo-webapi/librolegen-9999 **
+~gogoo-webapi/luna-universalsearchmgr-9999 **
+~gogoo-webapi/mojoservicelauncher-9999 **
+~dev-libs/leveldb-1.9.0 **
+~gogoo-webapi/db8-9999 **
+~gogoo-webapi/configurator-9999 **
+~gogoo-webapi/activitymanager-9999 **
+~gogoo-webapi/pmstatemachineengine-9999 **
+~gogoo-webapi/libpalmsocket-9999 **
+~gogoo-webapi/libsandbox-9999 **
+~gogoo-webapi/filecache-9999 **

@@ -1,0 +1,7 @@
+libdir=/usr/lib
+
+Name: jemalloc
+Description: Jemalloc is a general-purpose scalable concurrent allocator
+Version: 3.3.1
+Libs: -L${libdir} -ljemalloc
+
