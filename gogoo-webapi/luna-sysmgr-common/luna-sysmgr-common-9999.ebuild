@@ -8,7 +8,7 @@ inherit eutils qt4-r2 git-2
 
 DESCRIPTION="Provides header files and source code common to luna-sysmgr and webappmanager"
 HOMEPAGE="https://github.com/openwebos/${PN}"
-EGIT_REPO_URI="https://github.com/openwebos/${PN}"
+EGIT_REPO_URI="https://github.com/dudochkin-victor/${PN}"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -41,5 +41,9 @@ src_compile(){
     emake -f Makefile.Ubuntu.Release || die
 }
 src_install(){
-    emake -f Makefile.Ubuntu.Release DESTDIR="${D}" install || die
+	# Move header files to include dir
+	mkdir -p ${ED}usr/include/luna-sysmgr-common
+	cp ${WORKDIR}/${P}/include/*.h ${ED}usr/include/luna-sysmgr-common
+	mkdir -p ${ED}usr/lib/
+	mv ${WORKDIR}/${P}/release-x86/libLunaSysMgrCommon.* ${ED}usr/lib
 }

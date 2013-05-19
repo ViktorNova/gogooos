@@ -9,6 +9,7 @@ inherit cmake-utils git-2
 DESCRIPTION="public header files used by LunaSysMgrIpc, the webOS IPC library used by luna-sysmgr"
 HOMEPAGE="https://github.com/openwebos/${PN}"
 EGIT_REPO_URI="https://github.com/openwebos/${PN}"
+EGIT_BRANCH="submissions/2"
 
 LICENSE="GPL-3"
 SLOT="0"

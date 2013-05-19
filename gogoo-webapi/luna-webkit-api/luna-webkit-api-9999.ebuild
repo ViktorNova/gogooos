@@ -6,10 +6,9 @@ EAPI=4
 
 inherit cmake-utils git-2
 
-DESCRIPTION="webOS IPC library used by luna-sysmgr"
+DESCRIPTION="public header file used by luna-sysmgr"
 HOMEPAGE="https://github.com/openwebos/${PN}"
 EGIT_REPO_URI="https://github.com/openwebos/${PN}"
-EGIT_BRANCH="submissions/2"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -18,6 +17,7 @@ IUSE="nls"
 
 RDEPEND="
     gogoo-webapi/cmake-modules-webos
+    gogoo-webapi/luna-sysmgr-ipc
     "
 DEPEND="${RDEPEND}
 	sys-devel/libtool
