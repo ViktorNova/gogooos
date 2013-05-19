@@ -163,3 +163,6 @@ gogoo-base/jana
 ~gogoo-webapi/libsandbox-9999 
 ~gogoo-webapi/filecache-9999 
 ~gogoo-webapi/luna-webkit-api-9999 
+
+~dev-libs/wayland-1.1.0
+~x11-wm/weston-1.1.0
