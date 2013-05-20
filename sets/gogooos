@@ -20,8 +20,7 @@
 ~gogoo-base/anerley-0.3.0
 gogoo-base/jana
 ~gogoo-base/mkcal-0.3.8
-~gogoo-base/libqtsparql-0.0.21
-~gogoo-base/libqtsparql-9999
+#~gogoo-base/libqtsparql-9999
 ~gogoo-base/libgogoochat-9999
 ~gogoo-base/libsocialweb-qt-0.1.14
 ~gogoo-base/marmazon-0.0.1
@@ -118,9 +117,9 @@ gogoo-base/jana
 ~gogoo-touch/touch-home-0.23.20
 ~gogoo-touch/touch-inputmethodbridges-0.2.2
 ~gogoo-touch/touch-inputmethodengine-0.4.5
-~gogoo-touch/touch-inputmethodframework-0.20.6
+#~gogoo-touch/touch-inputmethodframework-0.20.6
 ~gogoo-touch/touch-inputmethodkeyboard-0.5.32
-~gogoo-touch/touch-qt-style-0.20.59
+#~gogoo-touch/touch-qt-style-0.20.59
 ~gogoo-touch/touch-systemui-9999
 ~gogoo-touch/touch-theme-0.20.92
 ~gogoo-touch/touch-theme-gogoo-0.1.6
@@ -162,6 +161,9 @@ gogoo-base/jana
 ~gogoo-webapi/libsandbox-9999 
 ~gogoo-webapi/filecache-9999 
 ~gogoo-webapi/luna-webkit-api-9999 
+~gogoo-webapi/luna-applauncher-9999 
+~gogoo-webapi/luna-systemui-9999 
+~gogoo-webapi/enyo-9999 
 
 ~dev-libs/wayland-1.0.0
 ~x11-wm/weston-1.1.0

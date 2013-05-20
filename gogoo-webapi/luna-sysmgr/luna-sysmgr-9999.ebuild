@@ -67,7 +67,7 @@ src_install(){
 #        rm -f $BASE/install-luna-sysmgr.sh
 
         mkdir -p ${ED}usr/lib/luna/system/luna-applauncher
-        cp -f ${WORKDIR}/${P}/desktop-support/appinfo.json ${ED}usr/lib/luna/system/luna-applauncher/appinfo.json
+        #cp -f ${WORKDIR}/${P}/desktop-support/appinfo.json ${ED}usr/lib/luna/system/luna-applauncher/appinfo.json
 	mkdir -p ${ED}usr/share/ls2/roles/prv
 	mkdir -p ${ED}usr/share/ls2/roles/pub
 	mkdir -p ${ED}usr/share/ls2/system-services
