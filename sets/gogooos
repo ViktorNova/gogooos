@@ -46,7 +46,7 @@ gogoo-base/jana
 ~dev-qt/qt-mobility-1.2.2_p20121205
 ~net-libs/qmf-2.0_p201209
 ~gogoo-base/kcalcore-4.1.18.1
-~gogoo-base/contextkit-0.5.27.1
+~gogoo-base/contextkit-9999
 ~gogoo-base/libcontentaction-9999
 ~gogoo-base/libgogootouch-9999
 ~gogoo-base/ux-translations-1.2.11
@@ -111,7 +111,6 @@ gogoo-base/jana
 #GogooOS Touch Architecture
 ~gogoo-touch/touch-applauncherd-0.18.1
 ~gogoo-touch/touch-applifed-0.20.9
-~gogoo-touch/touch-compositor-9999
 ~gogoo-touch/touch-controlpanel-0.12.1.2
 ~gogoo-touch/touch-controlpanelapplets-0.17.4
 ~gogoo-touch/touch-feedback-0.10.6
@@ -164,5 +163,6 @@ gogoo-base/jana
 ~gogoo-webapi/filecache-9999 
 ~gogoo-webapi/luna-webkit-api-9999 
 
-~dev-libs/wayland-1.1.0
+~dev-libs/wayland-1.0.0
 ~x11-wm/weston-1.1.0
+~x11-libs/cairo-1.12.8
