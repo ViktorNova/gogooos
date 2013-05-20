@@ -20,9 +20,9 @@ IUSE="nls"
 RDEPEND="
 	dev-libs/dbus-glib
 	dev-libs/glib:2
-	>=dev-libs/libdbusmenu-0.5.90:3[gtk]
-	sys-fs/udev[gudev]
-	x11-libs/gtk+:3
+	>=dev-qt/qtcore-5.0.2
+	>=dev-qt/qtdbus-5.0.2
+	>=dev-qt/qtxml-5.0.2
 	dev-db/tinycdb"
 DEPEND="${RDEPEND}
 	dev-util/intltool
